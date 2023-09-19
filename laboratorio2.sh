@@ -27,6 +27,7 @@ echo "El estado del proceso es: $stat"
 path=$(readlink /proc/$ID/exe)
 echo "La ruta del ejecutable del proceso es: $path"
 
+
 #Ejercicio 2, si el proceso se cierra, volver a levantarlo.
 echo -n "Escriba el nombre del proceso:" && read process_name
 echo -n "Escriba el comando a ejecutar con el proceso:" && read process_command
@@ -41,7 +42,7 @@ while true; do
 	sleep 10
 done
 
-
+#Ejercicio 3 recibir un ejecutable, correrlo y crear un archivo de log de consumo cpu y memoria, para graficarlo con gnuplot.
 
 
 
